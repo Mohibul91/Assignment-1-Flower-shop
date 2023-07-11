@@ -3,12 +3,50 @@
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* common styles */
+.common-titel{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+
+
+}
+.common-dis{
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgba(39, 39, 39, 0.60);
+  }
+  .btn{
+    background: #E55473;
+    color: #FFF;
+    padding: 10px 20px ;
+    border: none;
+    margin-top: 25px;
+    border-radius: 7px;
+}
+  
+
+
+
+
+/* banner-1*/
+.banner-dis-1{
+  font-size: 15px;
+  margin-top: 25px;
+  color: rgba(39, 39, 39, 0.60);
+  
+}
+
+
+
 .banner-1{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 0px 0px 250px;
     background-color:  rgba(229, 84, 115, 0.10);
+    margin-bottom: 150px;
 
 
   
@@ -28,20 +66,93 @@
   font-weight: 900px;
   
   }
-.banner-dis{
-    font-size: 15px;
-    margin-top: 25px;
 
-   
+
+/* banner-2 */
+.banner-2{
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 1000px;
+  background-color: aqua;
 }
-.btn{
-    background: #E55473;
-    color: #FFF;
-    padding: 10px 20px ;
-    border: none;
-    margin-top: 25px;
-    border-radius: 7px;
+.futures{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 300px 0px 300px;
 }
+.future-1{
+  background-color: rgba(167, 33, 98, 0.15);
+border-radius: 300px 300px 0px 0px;
+width: 364px;
+height: 400px;
+
+
+
+
+}
+.future-1 img{
+  width: 250px;
+height: 350px;
+/* text-align: center; */
+padding: 50px 50px 0px 50px;
+}
+.future-2{
+  background-color: rgba(5, 151, 160, 0.15); 
+border-radius: 300px 300px 0px 0px;
+width: 364px;
+height: 400px;
+
+
+
+
+}
+.future-2 img{
+  width: 250px;
+height: 350px;
+/* text-align: center; */
+padding: 50px 50px 0px 50px;
+} 
+
+.future-3{
+  background-color:rgba(71, 125, 17, 0.15);
+border-radius: 300px 300px 0px 0px;
+width: 364px;
+height: 400px;
+
+
+
+
+}
+.future-3 img{
+  width: 250px;
+height: 350px;
+/* text-align: center; */
+padding: 50px 50px 0px 50px;
+margin: 0px;
+}
+/* .banner-2 > ul{
+display: flex;
+justify-content: center;
+} */
+.flower-name{
+display: flex;
+justify-content: space-between;
+margin: 20px 420px;
+font-size: 20px;
+
+
+
+}
+.flower-name li{
+  list-style: none;
+}
+
+ 
+
+
+
+
 
 
 

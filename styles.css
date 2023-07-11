@@ -40,7 +40,7 @@ span{
     align-items: center;
     padding: 0px 0px 0px 250px;
     background-color:  rgba(229, 84, 115, 0.10);
-    margin-bottom: 150px;
+    margin-bottom: 110px;
 }
   .banner-1 img{
     width: 484px;
@@ -117,10 +117,10 @@ font-size: 20px;
 
 .service{
   background-color: rgba(39, 39, 39, 0.05);
-   width: 1300px;
+   width: 1320px;
   height: 300px;
   margin: auto; 
-  margin: 150px 300px 80px 300px;
+  margin: 99px 300px 115px 300px;
 }
 .service-item img{
   padding: 10px 0px 0px 20px;
@@ -130,7 +130,7 @@ font-size: 20px;
   justify-content: space-around;
   align-items: center;
   margin: auto;
-  padding: 90px 0px 20px 10px;
+  padding: 78px 0px 20px 10px;
 }
 .service-name{
   display: flex;
@@ -149,14 +149,14 @@ font-size: 20px;
 
 .singup{
   width: auto;
-  height: 620px;
+  height: 478px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   padding: 0px 0px 0px 250px;
   background-color: rgba(229, 84, 115, 0.10);
-  margin-bottom: 150px;
+  margin-bottom: 110px;
 }
 .singup img{
  width: 318px; 
@@ -165,10 +165,11 @@ font-size: 20px;
 }
 
        /* social media */
+
 .social-media-img{
   display: flex;
  
-justify-content: center;
+justify-content:center;
 
 }
 .social-media-img img{
@@ -176,5 +177,59 @@ margin: 0px 20px;
 width: 280px;
 height: 296px;
 }
+      
+        /* Email-From */
 
 
+.email-from{
+  margin: 130px auto ;
+  width: 1245px;
+  height: 420px;
+  background-image: url(images/Rectangle\ 9.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  border-radius: 8px;
+  
+}
+.email-info{
+  
+  margin-top: 130px;
+  display: inline-block;
+}
+input[type=text]{
+ padding-left: 15px;
+ border: none;
+ height: 38px;
+ width: 560px;
+ border-radius: 7px;
+ 
+}
+          /* Footer style */
+
+.footer{
+  background-color:#111010;;
+  width: auto;
+  height: 311px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 170px ;
+ 
+}
+
+
+
+.footer-titel{
+ 
+  font-size: 30px;
+  margin-bottom: 30px;
+ 
+  color: #FFF;
+  
+}
+.footer-dis{
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(153, 149, 149);
+}

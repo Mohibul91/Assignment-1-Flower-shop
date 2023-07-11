@@ -164,3 +164,17 @@ font-size: 20px;
  margin-right: 300px;
 }
 
+       /* social media */
+.social-media-img{
+  display: flex;
+ 
+justify-content: center;
+
+}
+.social-media-img img{
+margin: 0px 20px;
+width: 280px;
+height: 296px;
+}
+
+

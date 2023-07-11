@@ -5,12 +5,13 @@
 }
 
 /* common styles */
+span{
+  color: #E55473;
+}
 .common-titel{
   text-align: center;
   font-size: 30px;
   margin-bottom: 30px;
-
-
 }
 .common-dis{
   text-align: center;
@@ -25,21 +26,14 @@
     margin-top: 25px;
     border-radius: 7px;
 }
-  
+  /* banner-1*/
 
-
-
-
-/* banner-1*/
 .banner-dis-1{
   font-size: 15px;
   margin-top: 25px;
   color: rgba(39, 39, 39, 0.60);
   
 }
-
-
-
 .banner-1{
     display: flex;
     justify-content: space-between;
@@ -47,34 +41,24 @@
     padding: 0px 0px 0px 250px;
     background-color:  rgba(229, 84, 115, 0.10);
     margin-bottom: 150px;
-
-
-  
-  }
+}
   .banner-1 img{
     width: 484px;
-      height: 500px;
-      padding: 50px 250px 0px 0px;
-
-
-  }
+    height: 500px;
+    padding: 50px 250px 0px 0px;
+}
   .banner-title{
     color:#272727;
-  
-  font-size: 70px;
- 
-  font-weight: 900px;
-  
+    font-size: 70px;
+    font-weight: 900px;
   }
-
+ 
 
 /* banner-2 */
+
 .banner-2{
-  /* justify-content: center; */
-  /* align-items: center; */
-  width: 1000px;
-  background-color: aqua;
-}
+ 
+ }
 .futures{
   display: flex;
   align-items: center;
@@ -82,14 +66,10 @@
   margin: 0px 300px 0px 300px;
 }
 .future-1{
-  background-color: rgba(167, 33, 98, 0.15);
+background-color: rgba(167, 33, 98, 0.15);
 border-radius: 300px 300px 0px 0px;
 width: 364px;
 height: 400px;
-
-
-
-
 }
 .future-1 img{
   width: 250px;
@@ -98,14 +78,10 @@ height: 350px;
 padding: 50px 50px 0px 50px;
 }
 .future-2{
-  background-color: rgba(5, 151, 160, 0.15); 
+background-color: rgba(5, 151, 160, 0.15); 
 border-radius: 300px 300px 0px 0px;
 width: 364px;
 height: 400px;
-
-
-
-
 }
 .future-2 img{
   width: 250px;
@@ -113,16 +89,11 @@ height: 350px;
 /* text-align: center; */
 padding: 50px 50px 0px 50px;
 } 
-
 .future-3{
-  background-color:rgba(71, 125, 17, 0.15);
+background-color:rgba(71, 125, 17, 0.15);
 border-radius: 300px 300px 0px 0px;
 width: 364px;
 height: 400px;
-
-
-
-
 }
 .future-3 img{
   width: 250px;
@@ -131,38 +102,65 @@ height: 350px;
 padding: 50px 50px 0px 50px;
 margin: 0px;
 }
-/* .banner-2 > ul{
-display: flex;
-justify-content: center;
-} */
+
 .flower-name{
 display: flex;
 justify-content: space-between;
 margin: 20px 420px;
 font-size: 20px;
-
-
-
 }
 .flower-name li{
   list-style: none;
 }
 
+/* service-section */
+
+.service{
+  background-color: rgba(39, 39, 39, 0.05);
+   width: 1300px;
+  height: 300px;
+  margin: auto; 
+  margin: 150px 300px 80px 300px;
+}
+.service-item img{
+  padding: 10px 0px 0px 20px;
+  }
+.service-item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 90px 0px 20px 10px;
+}
+.service-name{
+  display: flex;
+  justify-content: space-around;
+  font-size:20px;
+  padding-right:27px;
+  
+  }
+.service-name li{
+  list-style: none;
+  text-align: center;
  
+}
 
+      /* signup  section */
 
-
-
-
-
-
-
-
-
-   
-
-
-
-    
-
+.singup{
+  width: auto;
+  height: 620px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0px 0px 0px 250px;
+  background-color: rgba(229, 84, 115, 0.10);
+  margin-bottom: 150px;
+}
+.singup img{
+ width: 318px; 
+ height: 420px;
+ margin-right: 300px;
+}
 
